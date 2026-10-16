@@ -9,7 +9,8 @@
 
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    object-fit: contain;
     background-image:url(img-pelu/e810e4131f86a7d0848a9ea749087931.jpg);
 
     background-size: cover;
@@ -19,6 +20,11 @@
 
 }
 
+@media (max-width: 600px) {
+    .img-pelu {
+        background-position: center center;
+    }
+}
 .fondo-opaco {
     position: absolute;
     width: 100%;
