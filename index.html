@@ -18,24 +18,43 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Servicios</a>
-                </li>
-            
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Estilistas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Galeria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-            </ul>
+           <ul class="navbar-nav ms-auto">
+    <li class="nav-item">
+        <a class="nav-link active" href="#inicio">
+            <i class="fas fa-house me-2"></i>Inicio
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#servicios">
+            <i class="fas fa-scissors me-2"></i>Servicios
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#estilistas">
+            <i class="fas fa-user me-2"></i>Estilistas
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#galeria">
+            <i class="fas fa-images me-2"></i>Galería
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#nosotros">
+            <i class="fas fa-heart me-2"></i>Nosotros
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#contacto">
+            <i class="fas fa-envelope me-2"></i>Contacto
+        </a>
+    </li>
+</ul>
         </div>
     </div>
 </nav>
@@ -61,75 +80,299 @@
              <div>una peluqueria, somos tu espacio de confianza</div>
         </h2>
 
-      <div>
-        <button class="btn btn-light btn-lg rounded-pill shadow"> Descubri nuestros servicios</button>
-      </div>
-    </section>
+      <a href="#servicios" class="btn-inicio">
+    <span>Descubrir servicios</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
 
-       <section id="especialistas">
-        
-        <div class="container-fluid">
-
-            <h2 class="titulo-PELU">Estilistas para vos</h2>
-             <div class="row">
-                <div class="col-md-3 mb-4">
-
-              <div class="card h-100"  data-aos="zoom-in-up">
-              <img src="img-pelu/estilista-1.2.jpg" class="card-img-top" alt="...">
-             <div class="card-body">
-            
-             <h5 class="card-title">SOFIA MARTINEZ</h5>
-             <p class="card-text">Master Stylist</p>
-             <a><i class="fa-brands fa-instagram"></i></a>
-        </div>
-    </div>
-    </div>
-                <div class="col-md-3 mb-4">
-
-              <div class="card h-100"  data-aos="zoom-in-up">
-              <img src="img-pelu/estilista-2.2.jpg" class="card-img-top" alt="...">
-             <div class="card-body">
-            
-             <h5 class="card-title">VALENTINA ROJAS</h5>
-             <p class="card-text">Color Specialist</p>
-             <a><i class="fa-brands fa-instagram"></i></a>
-        </div>
-    </div>
-    </div>
-
-                <div class="col-md-3 mb-4">
-
-              <div class="card h-100"  data-aos="zoom-in-up">
-              <img src="img-pelu/estilista-3.jpg" class="card-img-top" alt="...">
-             <div class="card-body">
-            
-             <h5 class="card-title">CAMILA TORRES</h5>
-             <p class="card-text">Cut & Style Expert</p>
-             <a><i class="fa-brands fa-instagram"></i></a>
-        </div>
-    </div>
-    </div>
-                <div class="col-md-3 mb-4" class="estilista">
-
-              <div class="card h-100"  data-aos="zoom-in-up">
-              <img src="img-pelu/estilista-4.jpg" class="card-img-top" alt="...">
-             <div class="card-body">
-            
-             <h5 class="card-title">MICAELA LOPEZ</h5>
-             <p class="card-text">Texture Specialist</p>
-             <a><i class="fa-brands fa-instagram"></i></a>
-        </div>
-    </div>
-    </div>
 
     </section>
+
+
+    <!-- SECCIÓN DE SERVICIOS -->
+<section id="servicios" class="servicios-section">
+
+    <!-- Franja superior -->
+    <div class="servicios-franja">
+        BELLEZA · ESTILO · CUIDADO CAPILAR · HAIR STUDIO ·
+        BELLEZA · ESTILO · CUIDADO CAPILAR ·
+    </div>
+
+    <div class="container py-5">
+
+        <!-- Título -->
+        <div class="servicios-titulo text-center">
+            <p class="subtitulo">DESCUBRÍ NUESTROS SERVICIOS</p>
+            <h2>Nuestros servicios</h2>
+            <p class="descripcion">
+                Cuidamos tu cabello para que luzca sano,
+                hermoso y lleno de vida.
+            </p>
+        </div>
+
+        <!-- Tarjetas de servicios -->
+        <div class="row justify-content-center mt-5">
+
+            <!-- Servicio 1 -->
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="servicio-card">
+
+                    <div class="servicio-imagen">
+                        <img
+                            src="img-pelu/corte.jpg"
+                            alt="Corte y peinado de cabello">
+                    </div>
+
+                    <h3>Corte y peinado</h3>
+
+                    <p>
+                        Encontrá el estilo ideal para vos
+                        con cortes modernos y peinados únicos.
+                    </p>
+
+                    <a href="#contacto" class="btn-servicio">
+                        Consultar
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Servicio 2 -->
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="servicio-card">
+
+                    <div class="servicio-imagen">
+                        <img
+                            src="img-pelu/coloracion-2.jpg"
+                            alt="Coloración profesional del cabello">
+                    </div>
+
+                    <h3>Coloración</h3>
+
+                    <p>
+                        Iluminá tu cabello con colores,
+                        reflejos y técnicas personalizadas.
+                    </p>
+
+                    <a href="#contacto" class="btn-servicio">
+                        Consultar
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Servicio 3 -->
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="servicio-card">
+
+                    <div class="servicio-imagen">
+                        <img
+                            src="img-pelu/tratamiento.jpg"
+                            alt="Tratamiento de cuidado capilar">
+                    </div>
+
+                    <h3>Tratamientos capilares</h3>
+
+                    <p>
+                        Nutrición, hidratación y reparación
+                        para mantener tu cabello saludable.
+                    </p>
+
+                    <a href="#contacto" class="btn-servicio">
+                        Consultar
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+       <!-- SECCIÓN ESTILISTAS -->
+<section id="estilistas" class="estilistas-section">
+
+    <div class="container">
+
+        <!-- Encabezado -->
+        <div class="estilistas-header">
+            <p class="estilistas-subtitulo">AURORA HAIR STUDIO</p>
+
+            <h2>Estilistas para vos</h2>
+
+            <p class="estilistas-descripcion">
+                Profesionales apasionados por la belleza y el
+                cuidado de tu cabello.
+            </p>
+        </div>
+
+        <!-- Tarjetas -->
+        <div class="row justify-content-center">
+
+            <!-- Estilista 1 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="estilista-card">
+
+                    <img
+                        src="img-pelu/estilista-1.2.jpg"
+                        alt="Retrato de estilista"
+                        class="estilista-foto">
+
+                    <div class="estilista-info">
+                        <h3>Sofía Martínez</h3>
+                        <p>Especialista en peinados</p>
+
+                        <a href="#contacto" class="estilista-link">
+                            Conocé más
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Estilista 2 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="estilista-card">
+
+                    <img
+                        src="img-pelu/estilista-2.2.jpg"
+                        alt="Retrato de estilista"
+                        class="estilista-foto">
+
+                    <div class="estilista-info">
+                        <h3>Valentina Rojas</h3>
+                        <p>Especialista en coloración</p>
+
+                        <a href="#contacto" class="estilista-link">
+                            Conocé más
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Estilista 3 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="estilista-card">
+
+                    <img
+                        src="img-pelu/estilista-3.jpg"
+                        alt="Retrato de estilista"
+                        class="estilista-foto">
+
+                    <div class="estilista-info">
+                        <h3>Camila Torres</h3>
+                        <p>Especialista en cortes</p>
+
+                        <a href="#contacto" class="estilista-link">
+                            Conocé más
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Estilista 4 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="estilista-card">
+
+                    <img
+                        src="img-pelu/estilista-4-2.jpg"
+                        alt="Retrato de estilista"
+                        class="estilista-foto">
+
+                    <div class="estilista-info">
+                        <h3>Micaela López</h3>
+                        <p>Especialista en tratamientos</p>
+
+                        <a href="#contacto" class="estilista-link">
+                            Conocé más
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- GALERÍA DE RESULTADOS -->
+<section id="galeria" class="galeria-section">
+
+    <div class="galeria-encabezado">
+        <p class="galeria-etiqueta">NUESTRO TRABAJO</p>
+
+        <h2>Resultados que enamoran</h2>
+
+        <p class="galeria-descripcion">
+            Cada cabello cuenta una historia.
+            Descubrí algunos de los looks que creamos
+            en Aurora Hair Studio.
+        </p>
+    </div>
+
+    <div class="galeria-filtros">
+        <a href="#cortes">Cortes</a>
+        <a href="#coloracion">Coloración</a>
+        <a href="#peinados">Peinados</a>
+        <a href="#tratamientos">Tratamientos</a>
+    </div>
+
+    <div class="galeria-grid">
+
+        <article class="galeria-card" id="cortes">
+            <img src="img-pelu/corte-estilo.jpg"
+                 alt="Resultado de corte de cabello">
+            <div class="galeria-info">
+                <span>CORTE Y ESTILO</span>
+                <h3>Un look renovado</h3>
+            </div>
+        </article>
+
+        <article class="galeria-card" id="coloracion">
+            <img src="img-pelu/coloracion-gale.jpg"
+                 alt="Resultado de coloración y balayage">
+            <div class="galeria-info">
+                <span>COLORACIÓN</span>
+                <h3>Color lleno de luz</h3>
+            </div>
+        </article>
+
+        <article class="galeria-card" id="peinados">
+            <img src="img-pelu/peinado.jpg"
+                 alt="Resultado de peinado con ondas">
+            <div class="galeria-info">
+                <span>PEINADOS</span>
+                <h3>Ondas con movimiento</h3>
+            </div>
+        </article>
+
+        <article class="galeria-card" id="tratamientos">
+            <img src="img-pelu/tratamiento-alisa.jpg"
+                 alt="Resultado de tratamiento capilar">
+            <div class="galeria-info">
+                <span>TRATAMIENTOS</span>
+                <h3>Brillo y suavidad</h3>
+            </div>
+        </article>
+
+    </div>
+
+    <p class="galeria-pie">
+        Cada resultado es único, porque cada cabello también lo es.
+    </p>
+
+</section>
+
+
 
      <section id="cabello">
         <div class="container">
             <div class="row">
                  <div class="col-md-6 g-4">
                 
-                  <h2 class="cabello"> Cabello sano, siempre hermoso</h2>
+                  <h2 class="cabello-sano"> Cabello sano, siempre hermoso</h2>
 
                   <p class="texto-donde">Trabajamos con las mejores marcas para que tu cabello-sano
                     reciba el cuidado que merece. Hidratación, nutrición,
@@ -137,19 +380,19 @@
                 
                 </div>
 
-                <div class="col-md-6" class="cabello-sano">
+                <div class="col-md-6 cabello-sano">
 
                     <div id="carouselExampleFade" class="carousel slide carousel-fade">
   <div class="carousel-inner">
     <div class="carousel-item active">
         
-      <img src="img-pelu/producto-1.jpg" class="d-block w-100" alt="...">
+      <img src="img-pelu/producto-1.jpg" class="d-block w-100 img-carrusel" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img-pelu/producto-2.jpg" class="d-block w-100" alt="...">
+      <img src="img-pelu/producto-2.jpg" class="d-block w-100 img-carrusel" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img-pelu/producto-3.jpg" class="d-block w-100" alt="...">
+      <img src="img-pelu/producto-3.jpg" class="d-block w-100 img-carrusel" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -165,6 +408,93 @@
         </div>
         
     </section>
+
+
+
+
+    <!-- SECCIÓN DE CONTACTO -->
+<section id="contacto" class="contacto-section">
+    <div class="contacto-imagen">
+        <img
+            src="img-pelu/salon-turnos-2.jpg"
+            alt="Interior de una peluquería moderna">
+    </div>
+
+    <div class="contacto-formulario">
+        <h2>CONTACTANOS</h2>
+
+        <div class="dato-contacto">
+            <i class="fa-solid fa-phone"></i>
+            <span>Tu número de teléfono</span>
+        </div>
+
+        <div class="dato-contacto">
+            <i class="fa-solid fa-envelope"></i>
+            <span>tuemail@ejemplo.com</span>
+        </div>
+
+        <p class="texto-contacto">
+            Solicitá un turno o envianos tu consulta.
+        </p>
+
+        <form action="#" method="post">
+            <input
+                type="text"
+                name="nombre"
+                placeholder="Nombre"
+                aria-label="Nombre"
+                required>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Correo electrónico"
+                aria-label="Correo electrónico"
+                required>
+
+            <input
+                type="tel"
+                name="telefono"
+                placeholder="Teléfono"
+                aria-label="Teléfono">
+
+            <textarea
+                name="mensaje"
+                placeholder="Escribí tu mensaje"
+                aria-label="Mensaje"
+                rows="4"
+                required></textarea>
+
+            <button type="submit">ENVIAR MENSAJE</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer-contacto">
+    <h5>HAIR STUDIO</h5>
+    <p>Tu cabello, nuestro cuidado.</p>
+    <div class="redes-contacto">
+        <a href="https://www.instagram.com/"
+           aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.facebook.com/"
+           aria-label="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://wa.me/549XXXXXXXXXX"
+           aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+    <small>© 2026 HAIR STUDIO · Todos los derechos reservados</small>
+</footer>
+
+
+
+
 
 
 
